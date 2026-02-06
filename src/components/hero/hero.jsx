@@ -32,7 +32,7 @@ const Hero =() => {
                     <div className="lawyer-shape"></div>
                     <div className="exprience">
                         <div className="exprience-left">
-                            <h4>25</h4>
+                            <h4>12</h4>
                         </div>
                         <div className="exprience-right">
                             <h4>Years Of Experience</h4>
