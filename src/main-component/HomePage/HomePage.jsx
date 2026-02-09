@@ -23,9 +23,9 @@ const HomePage = () => {
             <Testimonial />
             {/* <CaseStudies vClass={'d-none'}/> */}
             <FunFact />
-            <Attorney vClass={'d-none'}/>
+            {/* <Attorney vClass={'d-none'}/> */}
             <Consultinencey />
-            <BlogSection vClass={'d-none'}/>
+            {/* <BlogSection vClass={'d-none'}/> */}
             <Footer />
             <Scrollbar />
         </Fragment>
