@@ -94,7 +94,7 @@ const Header = (props) => {
                                         </li> */}
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/">Blog</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/blog">Blog right sidebar</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/blog-left-sidebar">Blog left sidebar</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/blog-fullwidth">Blog fullwidth</Link></li>
@@ -109,9 +109,9 @@ const Header = (props) => {
                                                             fullwidth</Link></li>
                                                     </ul>
                                                 </li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                        <li><Link to="/">Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>

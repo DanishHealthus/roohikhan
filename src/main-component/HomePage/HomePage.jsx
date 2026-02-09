@@ -21,7 +21,7 @@ const HomePage = () => {
             <About abimg={abimg}/>
             <Practice />
             <Testimonial />
-            <CaseStudies vClass={'d-none'}/>
+            {/* <CaseStudies vClass={'d-none'}/> */}
             <FunFact />
             <Attorney vClass={'d-none'}/>
             <Consultinencey />
