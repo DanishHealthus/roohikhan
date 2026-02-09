@@ -24,7 +24,7 @@ const Hero = () => {
                             </div>
                             <div className="clearfix"></div>
                             <div data-swiper-parallax="500" className="slide-btns">
-                                <Link to="/about" className="theme-btn-s2">Explore more</Link>
+                                <Link to="/" className="theme-btn-s2">Explore more</Link>
                             </div>
                         </div>
                         <div className="lawyer-pic">

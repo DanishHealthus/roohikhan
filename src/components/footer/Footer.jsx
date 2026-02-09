@@ -58,12 +58,12 @@ const Footer = (props) => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/home">Home</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/practice">Practice Area</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/attorneys">Team</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/case">Case Studies</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/testimonial">Testimonial</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Home</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">About Us</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Practice Area</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Team</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Case Studies</Link></li>
+                                    <li><Link onClick={ClickHandler} to="/">Testimonial</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     {Practices.map((practice, Sitem) => (
-                                        <li key={Sitem}><Link onClick={ClickHandler} to={`/practice-single/${practice.slug}`}>{practice.sTitle}</Link></li>
+                                        <li key={Sitem}><Link onClick={ClickHandler} to={`/`}>{practice.sTitle}</Link></li>
                                     ))}
                                 </ul>
                             </div>
